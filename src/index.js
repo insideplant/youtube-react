@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'normalize.css'
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -8,7 +9,7 @@ import { StoreProvider } from './store/index'
 ReactDOM.render(
   <React.StrictMode>
     <StoreProvider>
-    <App />
+      <App />
     </StoreProvider>
   </React.StrictMode>,
   document.getElementById('root')

@@ -1,4 +1,4 @@
-import React,{useReducer, createContext} from 'react'
+import React, {useReducer, createContext} from 'react'
 
 const initialState = {
   popular: []
@@ -26,3 +26,5 @@ export const StoreProvider = ({children}) => {
     </Store.Provider>
   )
 }
+
+export default StoreProvider
