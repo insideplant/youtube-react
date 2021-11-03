@@ -1,9 +1,12 @@
 import React from 'react'
+import Layout from '../components/Layout/Layout'
 
 const Top = () => {
   return (
     <div>
-      Top page
+      <Layout>
+        Top page
+      </ Layout>
     </div>
   )
 }
